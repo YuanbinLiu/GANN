@@ -1,5 +1,5 @@
-# MGANN
-Multiscale Graph Attention Neural Networks for Mapping Materials and Molecules
+# GANN
+Graph Attention Neural Networks for Mapping Materials and Molecules
 
 Our training is carried out on a system with 10 CPU cores, 32 GB of RAM, and an NVIDIA GeForce GTX 2080 Ti GPU.
 Check requirements.txt for other dependencies.
