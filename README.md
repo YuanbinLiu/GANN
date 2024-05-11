@@ -17,10 +17,15 @@ We provide an implementation for the QMOF experiment.
 (c) cd /GANN/data/
 (c) Run the python script to process into structure files with "python xyz_to_cifs.py"
 
-3. Training 
+
+2. Training
+
+ 
 To train the model in the paper, run these commands:
 cd /GANN
 python main.py --batch-size 32 --train-ratio 0.8 --val-ratio 0.1 --test-ratio 0.1  --workers 1 --epochs 200 --print-freq 1 data > log.out
 
 4. Evaluation
+
+   
 All results are available in the file 'output'.
